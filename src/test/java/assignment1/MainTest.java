@@ -76,7 +76,7 @@ public class MainTest
 
         CourseProgramme[] CT417Courses = new CourseProgramme[1];
         CT417Courses[0] = CSIT;
-        
+
         Module CT417 = new Module();
         CT417.setcoursesAssociated(CT417Courses);
 
