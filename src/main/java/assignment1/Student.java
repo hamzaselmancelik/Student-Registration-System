@@ -8,8 +8,8 @@ public class Student {
     private Date DOB;
     private int ID;
     private String username;
-    private String[] coursesRegistered;
-    private String[] modulesRegistered;
+    private CourseProgramme[] coursesRegistered;
+    private Module[] modulesRegistered;
     
     public Student(){
         
@@ -53,17 +53,18 @@ public class Student {
     }
 
     //courses registered
-    public String[] getCoursesRegistered(){
+    public CourseProgramme[] getCoursesRegistered(){
         return this.coursesRegistered;
     }
-    public void setCoursesRegistered(String[] coursesRegistered){
+    public void setCoursesRegistered(CourseProgramme[] coursesRegistered){
         this.coursesRegistered = coursesRegistered;
     }
+
     //modules registered
-    public String[] getModulesRegistered(){
+    public Module[] getModulesRegistered(){
         return this.modulesRegistered;
     }
-    public void setModulesRegistered(String[] modulesRegistered){
+    public void setModulesRegistered(Module[] modulesRegistered){
         this.modulesRegistered = modulesRegistered;
     }
 }
