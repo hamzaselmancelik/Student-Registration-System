@@ -49,7 +49,7 @@ public class Student {
         return this.name + this.age;
     }
     public void setUsername(){
-        this.username = this.name + this.ID;
+        this.username = this.name + this.age;
     }
 
     //courses registered
